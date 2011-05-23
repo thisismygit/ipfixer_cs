@@ -17,7 +17,7 @@ namespace IpFixer
             //
             // args[0] = "-argument0";
             //
-            int IPCheckInterval = 10000;  // every ten second
+            int IPCheckInterval = 60*5;  // every five minutes 
 
             // example usage:
             // ipfixer http://www.domain.com/dev/ipfixer.php hostA
