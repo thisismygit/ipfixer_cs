@@ -1,5 +1,9 @@
-ipfixer is a program that runs on a linux/mac/windows machine and sort of "pings" a webserver's PHP script.  In turn, the webserver records in an .xml file, 
+ipfixer is a program that runs on a linux/mac/windows machine and sort of "pings" a webserver's PHP script.  In turn, the webserver records (in an .xml file) the following: 
+
 1) the address of the pinger, and 
-2) the host name it passed along to the central server.
-After that gets recorded, you can have your server distribute processor intensive tasks to the satalite, even if the satalite's IP address is liable to change (because whenever the satalite's IP changes, it alerts central processing).  
+2) the satellite computer's name it passed along to the central server.
+
+After that gets recorded, you can have your server distribute processor intensive tasks to the satalite machines, even if the satalite's IP addresses are liable to change (because whenever the satalites' IP addresses change, they alert central processing).  
+
+
 
